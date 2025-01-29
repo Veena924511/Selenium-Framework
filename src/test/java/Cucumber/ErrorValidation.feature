@@ -13,5 +13,6 @@ Feature: Error validation
 
      Examples: 
       | userName  			             |	password |
-      | learnseleniumv@gmail.com | Learn@9 | 
+      | ****@gmail.com | ***** | 
+
 

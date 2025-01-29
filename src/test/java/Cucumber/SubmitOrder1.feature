@@ -17,4 +17,5 @@ Feature: Purchase the order from Ecommerce website
 
     Examples: 
       | userName  			             |	password | productName  |
-      | learnseleniumv@gmail.com | Learn@999 | ADIDAS ORIGINAL |  
+      | ****@gmail.com | ***** | ADIDAS ORIGINAL |  
+

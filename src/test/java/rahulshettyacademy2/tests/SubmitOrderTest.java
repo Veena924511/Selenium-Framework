@@ -63,7 +63,7 @@ public class SubmitOrderTest extends BaseTest {
 	@Test(dependsOnMethods= {"submitOrder"})
 	public void orderHistoryTest()
 	{
-		ProductCatalogue prdctCat=		landgPg.loginApplication("learnseleniumv@gmail.com", "Learn@999");
+		ProductCatalogue prdctCat=		landgPg.loginApplication("****@gmail.com", "******");
 		
 		OrdersPage ordrsPg=prdctCat.goToOrderesPage();
 	Assert.assertTrue(ordrsPg.verifyOrdersDisplay(productName));
@@ -76,7 +76,7 @@ public class SubmitOrderTest extends BaseTest {
 //	@DataProvider //using 2D array object
 //	public Object[][] getData()
 //	{
-//		return new Object[][] {{"learnseleniumv@gmail.com","Learn@999","ADIDAS ORIGINAL"} ,{"shetty@gmail.com","Iamking@000","ADIDAS ORIGINAL"}};
+//		return new Object[][] {{"****@gmail.com","****","ADIDAS ORIGINAL"} ,{"******","*****","ADIDAS ORIGINAL"}};
 //		
 //	}
 //ref.notes 
@@ -85,13 +85,13 @@ public class SubmitOrderTest extends BaseTest {
 //	{
 //		//we can strore data in HashMap as key value pair
 //		HashMap<String,String> map = new HashMap<String,String>();
-//		map.put("email", "learnseleniumv@gmail.com");
-//		map.put("password", "Learn@999");
+//		map.put("email", "****@gmail.com");
+//		map.put("password", "****");
 //		map.put("productName","ADIDAS ORIGINAL");
 //		
 //		HashMap<String,String> map1= new HashMap<String,String>();
-//		map1.put("email", "shetty@gmail.com");
-//		map1.put("password", "Iamking@000");
+//		map1.put("email", "******");
+//		map1.put("password", "*****");
 //		map1.put("productName", "ADIDAS ORIGINAL");
 //		return new Object[][] {{map},{map1}};
 //		

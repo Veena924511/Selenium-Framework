@@ -20,14 +20,14 @@ public class ErrorValidationTest extends BaseTest {
 	public void loginErrorValidation() 
 	{
 		
-			landgPg.loginApplication("learnseleniumv@gmail.com", "Learn@999");
+			landgPg.loginApplication("****@gmail.com", "****");
 		Assert.assertEquals("Incorrect email  password.",landgPg.getErrorMsg());
 	}
 	@Test
 	public void productErrorValidation() throws IOException
 	{
 		String productName = "ADIDAS ORIGINAL";
-		ProductCatalogue prdctCat=		landgPg.loginApplication("learnseleniumv@gmail.com", "Learn@999");
+		ProductCatalogue prdctCat=		landgPg.loginApplication("******@gmail.com", "*****");
 		List<WebElement> products = prdctCat.getProductList();
 		prdctCat.addToCart(productName);
 		CartPage cartPg =	prdctCat.gotToCartPage();
